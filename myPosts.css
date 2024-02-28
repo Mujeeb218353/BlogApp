@@ -213,7 +213,7 @@ form p{
 }
 
 #loader {
-    margin-top: 20px;
+/*     margin-top: 20px; */
     width: 100%;
     display: flex;
     align-items: center;
