@@ -26,7 +26,7 @@ document.getElementById('login').addEventListener('click', (e) => {
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-            alert("Login successfully");
+           // alert("Login successfully");
             window.location.href = "home.html";
         })
         .catch((error) => {
