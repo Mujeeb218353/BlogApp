@@ -95,7 +95,7 @@ function getUserData(userId) {
                         img.style.borderRadius = "10px";
                         let li = document.createElement('li');
                         li.style.minWidth = '17rem';
-                        li.classList.add('col-4', 'mx-auto', 'my-3');
+                        li.classList.add('mx-auto', 'mb-3', 'col-12', 'col-sm-6', 'col-md-6', 'col-lg-4', 'col-xl-4', 'col-xxl-3', 'my-2');
                         li.innerHTML = `
                         <div class="post-container">
                             <div class="login-container" id="loginContainer">
