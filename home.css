@@ -5,9 +5,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
 }
-*{
-/*     box-sizing: content-box !important; */
-}
 
 #loader {
     /*margin-top: px;*/
