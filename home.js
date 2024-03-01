@@ -43,7 +43,7 @@ async function getAllUsersData() {
         img.style.height = '200px';
         let li = document.createElement('li');
         li.style.minWidth = '17rem';
-        li.classList.add('mx-auto', 'mb-3', 'col-12', 'col-sm-6', 'col-md-6', 'col-lg-4', 'col-xl-3', 'col-xxl-3');
+        li.classList.add('mx-auto', 'mb-3', 'col-12', 'col-sm-6', 'col-md-6', 'col-lg-4', 'col-xl-4', 'col-xxl-3');
         li.style.height = '100%';
         let initialDescription = doc.data().description.slice(0, 27);
         let remainingDescription = doc.data().description.slice(27);
